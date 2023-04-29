@@ -1,0 +1,13 @@
+SELECT * FROM TASK.MOVIE
+
+INSERT INTO task.movie (Movie_id, Movie_name, Release_year, Director) VALUES ('11', 'PS1', '2022', 'MANI RATNAM');
+
+UPDATE TASK.MOVIE SET review_rating=8.3 where Movie_id=7
+
+SELECT * FROM TASK.MOVIE order by review_rating
+
+DELETE FROM task.movies WHERE Movie_id=11
+
+ALTER TABLE task.movies ADD Trailer varchar(255)
+
+
